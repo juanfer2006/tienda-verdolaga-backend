@@ -7,18 +7,18 @@ const prisma = new PrismaClient();
 const productosSeed = [
   // --- 1. CAMISETAS (10 productos) ---
   {
-    nombre: "Camiseta Verde Cl?sica, temporada 2011",
+    nombre: "Camiseta Verde Clásica, temporada 2011",
     categoria: "camisetas",
     precio: 249900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqPCRB-V_Lq1tjBTEsCF-5WnI57uUwhRhBGJ-A1Uct2KtHF3MKjQIsbYE&s=10",
-    descripcion: "Dise?o tradicional con las cl?sicas franjas verdes y blancas, confeccionada en tejido transpirable."
+    descripcion: "Diseño tradicional con las clásicas franjas verdes y blancas, confeccionada en tejido transpirable."
   },
   {
     nombre: "Camiseta Blanca Verdolaga, temporada 2026",
     categoria: "camisetas",
     precio: 239900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuD2t_5jGZJY7KslmBIaGGcRAyYA9kfCNPxeKF5qYkFOs0A9Q7C7sI24jg&s=10",
-    descripcion: "Edici?n visitante en color blanco con detalles verdes y escudo bordado de alta definici?n."
+    descripcion: "Edición visitante en color blanco con detalles verdes y escudo bordado de alta definici?n."
   },
   {
     nombre: "Camiseta Alternativa Negra, temporada 2025",
@@ -32,35 +32,35 @@ const productosSeed = [
     categoria: "camisetas",
     precio: 219900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpdIZv4SfFq1oXwNxAZ-CZulrr373_VaYJfzPvQHzSOA&s=10",
-    descripcion: "Dise?o de corte cl?sico con cuello tipo polo."
+    descripcion: "Dise?o de corte clásico con cuello tipo polo."
   },
   {
     nombre: "Camiseta de Entrenamiento",
     categoria: "camisetas",
     precio: 159900,
     imagen: "https://peopleplays.vtexassets.com/arquivos/ids/579530-800-auto?v=639059970442700000&width=800&height=auto&aspect=true",
-    descripcion: "Prenda deportiva ligera con tecnolog?a de secado r?pido, pensada para la actividad f?sica diaria."
+    descripcion: "Prenda deportiva ligera con tecnolog?a de secado rápido, pensada para la actividad f?sica diaria."
   },
   {
-    nombre: "Camiseta Edici?n Homenaje Chapecoense, temporada 2026",
+    nombre: "Camiseta Edición Homenaje Chapecoense, temporada 2026",
     categoria: "camisetas",
     precio: 259900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw80ICTxzR7iaAoFq6daJOSZrwXhrTeMujWV2HbPOhuWWNIWwc9fJm2VI&s=10",
-    descripcion: "Edici?n especial homenaje a la tragedia de Chapecoense."
+    descripcion: "Edición especial homenaje a la tragedia de Chapecoense."
   },
   {
-    nombre: "Camiseta con Firma Hist?rica de Alexis Henr?quez, temporada 2015",
+    nombre: "Camiseta con Firma Hist?rica de Alexis Henríquez, temporada 2015",
     categoria: "camisetas",
     precio: 249900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ93Du7cPYG8g0pRAF8cpfYD5dw1m2FvDqpTZXAeK9QDYNiw1-gi_QLoY&s=10",
-    descripcion: "Camiseta del legendario Alexis Henr?quez, temporada 2015."
+    descripcion: "Camiseta del legendario Alexis Henriquez, temporada 2015."
   },
   {
     nombre: "Camiseta Coleccionable visitante, temporada 2004",
     categoria: "camisetas",
     precio: 239900,
     imagen: "https://fuegoverde.com.co/wp-content/uploads/2022/04/nacional-2004.jpg",
-    descripcion: "Camiseta visitante del a?o 2004, a?o en el que el verde disput? dos finales de liga."
+    descripcion: "Camiseta visitante del año 2004, año en el que el verde disputo dos finales de liga."
   },
   {
     nombre: "Camiseta Urbana Blow Up",
@@ -70,7 +70,7 @@ const productosSeed = [
     descripcion: "Camiseta con estilo para lucir los colores en cualquier momento."
   },
   {
-    nombre: "Camiseta Edici?n Leyenda del Arco Franco Armani, temporada 2016",
+    nombre: "Camiseta Edicion Leyenda del Arco Franco Armani, temporada 2016",
     categoria: "camisetas",
     precio: 229900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgmeFYX7Zajod5pwrOZ9EPkKJHm0e75zhlzETlX2m9RpiTCfvmAqucT8U&s=10",
@@ -93,32 +93,32 @@ const productosSeed = [
     descripcion: "Bufanda negra."
   },
   {
-    nombre: "Termo Met?lico Verdolaga",
+    nombre: "Termo Metalico Verdolaga",
     categoria: "accesorios",
     precio: 55000,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU5Tqb0VdfLb9vHv137MLqd_JgeyPL-PNTBg2gk70V4MGrh0O3FcmQKfU&s=10",
-    descripcion: "Botella de acero inoxidable con tapa herm?tica para mantener tus bebidas a temperatura ideal."
+    descripcion: "Botella de acero inoxidable con tapa hermetica para mantener tus bebidas a temperatura ideal."
   },
   {
     nombre: "Llavero Escudo Met?lico",
     categoria: "accesorios",
     precio: 24900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTogk9TpZ4nqljyZITva2fKibGQaXLaTLpAYV5XUrwy3VrvWBZ9KrVsoM&s=10",
-    descripcion: "Llavero de aleaci?n met?lica con acabado esmaltado de alta durabilidad y argolla reforzada."
+    descripcion: "Llavero de aleación metálica con acabado esmaltado de alta durabilidad y argolla reforzada."
   },
   {
     nombre: "Gorra campeon liga 2024",
     categoria: "accesorios",
     precio: 74900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI_ZjkYwJ-1OeADZmmPxYWP5QbWkDI19imEgawZZbCH8G2gWugDP7YFII&s=10",
-    descripcion: "Gorra blanca de los festejos del t?tulo de liga 2024."
+    descripcion: "Gorra blanca de los festejos del titulo de liga 2024."
   },
   {
-    nombre: "Taza Cer?mica Verdolaga",
+    nombre: "Taza Ceramica Verdolaga",
     categoria: "accesorios",
     precio: 29900,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfOnhCpjSqjs41m7Q9hGs_pvlItdZqWKH8hN-QFCabweCTskSR8OJDNsA&s=10",
-    descripcion: "Taza de cer?mica con la mascota del equipo y detalles verdes."
+    descripcion: "Taza de ceramica con la mascota del equipo y detalles verdes."
   },
   {
     nombre: "Mochila Deportiva de Viaje",
@@ -154,22 +154,22 @@ const productosSeed = [
     nombre: "Bandera Gigante 'Rey de copas'",
     categoria: "coleccionables",
     precio: 49900,
-    imagen: "https://images.unsplash.com/photo-1521417531038-928ec2677a38?w=800&auto=format&fit=crop&q=80",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNn7VoxqjGZRDeWTzBL2g2by4PuJxVoM_x7p8K9LygoTK9yZRSnhUycNFa&s=10",
     descripcion: "Bandera resistente para alentar con orgullo."
   },
   {
-    nombre: "Bal?n Coleccionable vintage",
+    nombre: "Balon Coleccionable vintage",
     categoria: "coleccionables",
     precio: 85000,
     imagen: "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=800&auto=format&fit=crop&q=80",
-    descripcion: "Bal?n decorativo conmemorativo con detalles dorados."
+    descripcion: "Balon decorativo conmemorativo con detalles dorados."
   },
   {
-    nombre: "Bal?n final liga 2024",
+    nombre: "Balon final liga 2024",
     categoria: "coleccionables",
     precio: 99000,
     imagen: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop&q=80",
-    descripcion: "Bal?n de edici?n conmemorativa del t?tulo liguero 2024."
+    descripcion: "Balon de edicion conmemorativa del titulo liguero 2024."
   },
   {
     nombre: "Cuadro decorativo campeon libertadores",
@@ -183,7 +183,7 @@ const productosSeed = [
     categoria: "coleccionables",
     precio: 92000,
     imagen: "https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?w=800&auto=format&fit=crop&q=80",
-    descripcion: "Bal?n representativo del club con dise?o cl?sico y detalles del escudo."
+    descripcion: "Balon representativo del club con diseño clasico y detalles del escudo."
   },
   {
     nombre: "Placa Decorativa Met?lica",
@@ -200,11 +200,11 @@ const productosSeed = [
     descripcion: "Placa decorativa inspirada en la energ?a y alegr?a de la hinchada verdolaga."
   },
   {
-    nombre: "?lbum hist?rico tricampe?n",
+    nombre: "Album histórico tricampeón",
     categoria: "coleccionables",
     precio: 87000,
     imagen: "https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop&q=80",
-    descripcion: "?lbum hist?rico conmemorativo del tricampeonato del club."
+    descripcion: "Album histórico conmemorativo del tricampeonato del club."
   },
   {
     nombre: "Escudo Decorativo 3D Multicapa",
@@ -214,11 +214,11 @@ const productosSeed = [
     descripcion: "Pieza artesanal de pared en madera calada con acabado en relieve y colores verde y blanco brillantes."
   },
   {
-    nombre: "R?plica de Trofeo de Colecci?n libertadores 2016",
+    nombre: "Replica de Trofeo de Colección libertadores 2016",
     categoria: "coleccionables",
     precio: 189900,
     imagen: "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=800&auto=format&fit=crop&q=80",
-    descripcion: "Figura decorativa en resina con ba?o plateado en homenaje a la conquista internacional del 2016."
+    descripcion: "Figura decorativa en resina con baño plateado en homenaje a la conquista internacional del 2016."
   }
 ];
 
