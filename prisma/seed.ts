@@ -7,74 +7,74 @@ const prisma = new PrismaClient();
 const productosSeed = [
   // --- 1. CAMISETAS (10 productos) ---
   {
-    nombre: "Camiseta Verde Clásica",
+    nombre: "Camiseta Verde Cl?sica, temporada 2011",
     categoria: "camisetas",
     precio: 249900,
-    imagen: "https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Diseño tradicional con las clásicas franjas verdes y blancas, confeccionada en tejido transpirable."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqPCRB-V_Lq1tjBTEsCF-5WnI57uUwhRhBGJ-A1Uct2KtHF3MKjQIsbYE&s=10",
+    descripcion: "Dise?o tradicional con las cl?sicas franjas verdes y blancas, confeccionada en tejido transpirable."
   },
   {
-    nombre: "Camiseta Blanca Verdolaga",
+    nombre: "Camiseta Blanca Verdolaga, temporada 2026",
     categoria: "camisetas",
     precio: 239900,
-    imagen: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Edición visitante en color blanco con detalles verdes y escudo bordado de alta definición."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuD2t_5jGZJY7KslmBIaGGcRAyYA9kfCNPxeKF5qYkFOs0A9Q7C7sI24jg&s=10",
+    descripcion: "Edici?n visitante en color blanco con detalles verdes y escudo bordado de alta definici?n."
   },
   {
-    nombre: "Camiseta Alternativa Negra",
+    nombre: "Camiseta Alternativa Negra, temporada 2025",
     categoria: "camisetas",
     precio: 229900,
-    imagen: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Estilo moderno en fondo negro con vivos verdes neón y acabado de alto rendimiento deportivo."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcaWFrHZRkvZ9WcwtIuhuwZroy-3i4blD3cKonW9alP_v4hsbMsMgO1_g3&s=10",
+    descripcion: "Estilo moderno en fondo negro con detalles dorados."
   },
   {
-    nombre: "Camiseta Retro Época Dorada",
+    nombre: "Camiseta Retro ?poca Dorada, temporada 1989",
     categoria: "camisetas",
     precio: 219900,
-    imagen: "https://images.unsplash.com/photo-1580087433295-ab2600c1030e?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Diseño de corte clásico inspirado en las camisetas históricas de los años ochenta con cuello tipo polo."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpdIZv4SfFq1oXwNxAZ-CZulrr373_VaYJfzPvQHzSOA&s=10",
+    descripcion: "Dise?o de corte cl?sico con cuello tipo polo."
   },
   {
-    nombre: "Camiseta de Entrenamiento Pro",
+    nombre: "Camiseta de Entrenamiento",
     categoria: "camisetas",
     precio: 159900,
-    imagen: "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Prenda deportiva ligera con tecnología de secado rápido, pensada para la actividad física diaria."
+    imagen: "https://peopleplays.vtexassets.com/arquivos/ids/579530-800-auto?v=639059970442700000&width=800&height=auto&aspect=true",
+    descripcion: "Prenda deportiva ligera con tecnolog?a de secado r?pido, pensada para la actividad f?sica diaria."
   },
   {
-    nombre: "Camiseta Edición Homenaje Continental",
+    nombre: "Camiseta Edici?n Homenaje Chapecoense, temporada 2026",
     categoria: "camisetas",
     precio: 259900,
-    imagen: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Edición especial inspirada en las grandes gestas del club durante las noches de torneos internacionales."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw80ICTxzR7iaAoFq6daJOSZrwXhrTeMujWV2HbPOhuWWNIWwc9fJm2VI&s=10",
+    descripcion: "Edici?n especial homenaje a la tragedia de Chapecoense."
   },
   {
-    nombre: "Camiseta con Diseño de Firma Histórica",
+    nombre: "Camiseta con Firma Hist?rica de Alexis Henr?quez, temporada 2015",
     categoria: "camisetas",
     precio: 249900,
-    imagen: "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Pieza conmemorativa para coleccionistas con un diseño estampado inspirado en la firma de ídolos verdolagas."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ93Du7cPYG8g0pRAF8cpfYD5dw1m2FvDqpTZXAeK9QDYNiw1-gi_QLoY&s=10",
+    descripcion: "Camiseta del legendario Alexis Henr?quez, temporada 2015."
   },
   {
-    nombre: "Camiseta Coleccionable Verde Esmeralda",
+    nombre: "Camiseta Coleccionable visitante, temporada 2004",
     categoria: "camisetas",
     precio: 239900,
-    imagen: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Confección especial en tonalidad verde esmeralda con ribetes dorados para aficionados del equipo."
+    imagen: "https://fuegoverde.com.co/wp-content/uploads/2022/04/nacional-2004.jpg",
+    descripcion: "Camiseta visitante del a?o 2004, a?o en el que el verde disput? dos finales de liga."
   },
   {
-    nombre: "Camiseta Urbana 'El Más Grande'",
+    nombre: "Camiseta Urbana Blow Up",
     categoria: "camisetas",
     precio: 129900,
-    imagen: "https://images.unsplash.com/photo-1527719327859-c6ce80353573?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Camiseta de algodón con estilo streetwear y tipografía retro para lucir los colores en cualquier momento."
+    imagen: "https://velocitysavage.com/cdn/shop/files/camiseta-atletico-nacional-verde-edicion-blow-up-4276987.png?v=1772489527",
+    descripcion: "Camiseta con estilo para lucir los colores en cualquier momento."
   },
   {
-    nombre: "Camiseta Edición Leyenda del Arco",
+    nombre: "Camiseta Edici?n Leyenda del Arco Franco Armani, temporada 2016",
     categoria: "camisetas",
     precio: 229900,
-    imagen: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Buzo de arquero manga larga inspirado en las grandes figuras que defendieron la portería verdolaga."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgmeFYX7Zajod5pwrOZ9EPkKJHm0e75zhlzETlX2m9RpiTCfvmAqucT8U&s=10",
+    descripcion: "Buzo de arquero manga larga morada."
   },
 
   // --- 2. ACCESORIOS (10 productos) ---
@@ -82,129 +82,129 @@ const productosSeed = [
     nombre: "Gorra Verde Urbana",
     categoria: "accesorios",
     precio: 69900,
-    imagen: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7iAltBycit9fNYL9YXzvtVocwBh3POZinJ3dHEe9R2w&s=10",
     descripcion: "Gorra con visera curva, broche ajustable y escudo verdolaga bordado en relieve."
   },
   {
-    nombre: "Bufanda Verdolaga Estadio",
+    nombre: "Bufanda Verdolaga",
     categoria: "accesorios",
     precio: 45000,
-    imagen: "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Bufanda tejida doble faz con flecos y la frase representativa de la hinchada."
+    imagen: "https://fuegoverde.com.co/wp-content/uploads/2019/06/Bufanda-Tejida-Atletico-Nacional-Doble-Fax-Lana-Acrilica-3.jpg",
+    descripcion: "Bufanda negra."
   },
   {
-    nombre: "Termo Metálico Verdolaga",
+    nombre: "Termo Met?lico Verdolaga",
     categoria: "accesorios",
     precio: 55000,
-    imagen: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Botella de acero inoxidable con tapa hermética para mantener tus bebidas a temperatura ideal."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU5Tqb0VdfLb9vHv137MLqd_JgeyPL-PNTBg2gk70V4MGrh0O3FcmQKfU&s=10",
+    descripcion: "Botella de acero inoxidable con tapa herm?tica para mantener tus bebidas a temperatura ideal."
   },
   {
-    nombre: "Llavero Escudo Metálico",
+    nombre: "Llavero Escudo Met?lico",
     categoria: "accesorios",
     precio: 24900,
-    imagen: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Llavero de aleación metálica con acabado esmaltado de alta durabilidad y argolla reforzada."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTogk9TpZ4nqljyZITva2fKibGQaXLaTLpAYV5XUrwy3VrvWBZ9KrVsoM&s=10",
+    descripcion: "Llavero de aleaci?n met?lica con acabado esmaltado de alta durabilidad y argolla reforzada."
   },
   {
-    nombre: "Gorra Retro Estilo Snapback",
+    nombre: "Gorra campeon liga 2024",
     categoria: "accesorios",
     precio: 74900,
-    imagen: "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Gorra con visera plana en contraste verde y blanco con bordado frontal de estética noventera."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI_ZjkYwJ-1OeADZmmPxYWP5QbWkDI19imEgawZZbCH8G2gWugDP7YFII&s=10",
+    descripcion: "Gorra blanca de los festejos del t?tulo de liga 2024."
   },
   {
-    nombre: "Taza Cerámica 'Siempre Verdolaga'",
+    nombre: "Taza Cer?mica Verdolaga",
     categoria: "accesorios",
     precio: 29900,
-    imagen: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Taza de cerámica de 11 oz apta para microondas y lavavajillas con frase motivacional."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfOnhCpjSqjs41m7Q9hGs_pvlItdZqWKH8hN-QFCabweCTskSR8OJDNsA&s=10",
+    descripcion: "Taza de cer?mica con la mascota del equipo y detalles verdes."
   },
   {
     nombre: "Mochila Deportiva de Viaje",
     categoria: "accesorios",
     precio: 119900,
-    imagen: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Morral espacioso con compartimento acolchado para portátil y bolsillos laterales de fácil acceso."
+    imagen: "https://http2.mlstatic.com/D_Q_NP_2X_824672-MCO83591749488_042025-T.webp",
+    descripcion: "Morral blanco perfecto para viajes."
   },
   {
     nombre: "Set de Pines Esmaltados (3 Piezas)",
     categoria: "accesorios",
     precio: 34900,
-    imagen: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Juego de 3 prendedores metálicos esmaltados para personalizar camisetas, chaquetas o mochilas."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm4ycloYqzwz_BErDbAfoPl_rSUrPbiqHYibvQf0xE3w&s=10",
+    descripcion: "Juego de 3 prendedores met?licos esmaltados para personalizar camisetas, chaquetas o mochilas."
   },
   {
-    nombre: "Billetera de Cuero Sintético Verdolaga",
+    nombre: "Billetera de Cuero Sint?tico Verdolaga",
     categoria: "accesorios",
     precio: 49900,
-    imagen: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://http2.mlstatic.com/D_NQ_NP_700798-MCO114183698145_072026-O.webp",
     descripcion: "Billetera compacta con grabado sutil del escudo, tarjetero y compartimento para billetes."
   },
   {
-    nombre: "Pulsera de Acero Inoxidable y Cordón",
+    nombre: "Pulsera de Acero Inoxidable y Cord?n",
     categoria: "accesorios",
     precio: 21900,
-    imagen: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Brazalete ajustable elaborado con cordón de alta resistencia y placa grabada en láser."
+    imagen: "https://mktaddi.vteximg.com.br/arquivos/ids/87294751/85848d3f-97bd-43e6-9a62-d7a84ab6e634-PCD73G___36dc99956e244628ca05b4e835543821.jpg?v=639136076353300000",
+    descripcion: "Brazalete ajustable elaborado con cord?n de alta resistencia y placa grabada en l?ser."
   },
 
   // --- 3. COLECCIONABLES (10 productos) ---
   {
-    nombre: "Bandera Gigante 'Soy del Verde'",
+    nombre: "Bandera Gigante 'Rey de copas'",
     categoria: "coleccionables",
     precio: 49900,
-    imagen: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Bandera de gran tamaño (1.50 x 1.00 m) elaborada en poliéster resistente para alentar con orgullo."
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNn7VoxqjGZRDeWTzBL2g2by4PuJxVoM_x7p8K9LygoTK9yZRSnhUycNFa&s=10",
+    descripcion: "Bandera resistente para alentar con orgullo."
   },
   {
-    nombre: "Balón Coleccionable Gloria",
+    nombre: "Bal?n Coleccionable vintage",
     categoria: "coleccionables",
-    precio: 119900,
-    imagen: "https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Balón decorativo conmemorativo con detalles dorados de los títulos y copas más importantes."
+    precio: 85000,
+    imagen: "https://lacanchatiendadeportiva.com.co/cdn/shop/files/rn-image_picker_lib_temp_e1c08d2a-b180-43d8-9f4b-e6ddc02c40a0.jpg?v=1764959849",
+    descripcion: "Bal?n decorativo conmemorativo con detalles dorados."
   },
   {
-    nombre: "Balón Conmemorativo Bicampeón de América",
+    nombre: "Bal?n final liga 2024",
     categoria: "coleccionables",
-    precio: 149900,
+    precio: 99000,
     imagen: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Balón de exhibición conmemorativo con panel serigrafiado en homenaje a las dos coronas continentales."
+    descripcion: "Bal?n de edici?n conmemorativa del t?tulo liguero 2024."
   },
   {
-    nombre: "Poster Retro Enmarcado 'Noches de Copa'",
+    nombre: "Cuadro decorativo campeon libertadores",
     categoria: "coleccionables",
-    precio: 89900,
+    precio: 115000,
     imagen: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Lámina decorativa de alta resolución con marco de madera negra inspirada en noches históricas del estadio."
+    descripcion: "Cuadro decorativo conmemorativo del t?tulo de la Libertadores."
   },
   {
-    nombre: "Fotografía Histórica Vuelta Olímpica",
+    nombre: "balon atletico nacional",
     categoria: "coleccionables",
-    precio: 64900,
-    imagen: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Impresión fotográfica en calidad museo que evoca la celebración y euforia de una final inolvidable."
+    precio: 92000,
+    imagen: "https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?w=500&auto=format&fit=crop&q=60",
+    descripcion: "Bal?n representativo del club con dise?o cl?sico y detalles del escudo."
   },
   {
-    nombre: "Placa Decorativa Metálica 'Pasión Paisa'",
+    nombre: "Placa Decorativa Met?lica",
     categoria: "coleccionables",
     precio: 59900,
     imagen: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=60",
     descripcion: "Placa de aluminio estilo vintage con bordes envejecidos para decorar habitaciones o salas de entretenimiento."
   },
   {
-    nombre: "Miniatura de Camiseta con Pedestal",
+    nombre: "Placa decorativa 'soy del verde, soy feliz'",
     categoria: "coleccionables",
-    precio: 79900,
-    imagen: "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Réplica en miniatura a escala de la camiseta titular clásica montada sobre una base de madera maciza."
+    precio: 54000,
+    imagen: "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=500&auto=format&fit=crop&q=60",
+    descripcion: "Placa decorativa inspirada en la energ?a y alegr?a de la hinchada verdolaga."
   },
   {
-    nombre: "Set de Tarjetas Ilustradas Históricas",
+    nombre: "?lbum hist?rico tricampe?n",
     categoria: "coleccionables",
-    precio: 44900,
+    precio: 87000,
     imagen: "https://images.unsplash.com/photo-1563089145-599997674d42?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Colección de 12 tarjetas ilustradas que repasan hitos y momentos memorables del club verdolaga."
+    descripcion: "?lbum hist?rico conmemorativo del tricampeonato del club."
   },
   {
     nombre: "Escudo Decorativo 3D Multicapa",
@@ -214,11 +214,11 @@ const productosSeed = [
     descripcion: "Pieza artesanal de pared en madera calada con acabado en relieve y colores verde y blanco brillantes."
   },
   {
-    nombre: "Réplica de Trofeo de Colección",
+    nombre: "R?plica de Trofeo de Colecci?n libertadores 2016",
     categoria: "coleccionables",
     precio: 189900,
     imagen: "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=500&auto=format&fit=crop&q=60",
-    descripcion: "Figura decorativa en resina con baño plateado en homenaje a los trofeos internacionales más recordados."
+    descripcion: "Figura decorativa en resina con ba?o plateado en homenaje a la conquista internacional del 2016."
   }
 ];
 
