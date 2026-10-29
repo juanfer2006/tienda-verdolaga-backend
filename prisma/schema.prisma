@@ -1,0 +1,75 @@
+// datasource y generator
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// 1. Roles del sistema
+enum Role {
+  USER
+  ADMIN
+}
+
+// 2. Modelo de Usuarios
+model User {
+  id        String   @id @default(uuid())
+  nombre    String
+  email     String   @unique
+  password  String
+  telefono  String?
+  role      Role     @default(USER)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  pedidos   Pedido[]
+
+  @@map("users")
+}
+
+// 3. Modelo del Catálogo (Productos de Tienda Verdolaga)
+model Producto {
+  id          String   @id @default(uuid())
+  nombre      String
+  categoria   String   // 'camisetas' | 'accesorios' | 'coleccionables'
+  precio      Float
+  imagen      String
+  descripcion String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  pedidos     Pedido[]
+
+  @@map("productos")
+}
+
+// 4. Modelo de Interacción (Relación User - Producto)
+enum EstadoPedido {
+  PENDIENTE
+  CONFIRMADO
+  EN_CAMINO
+  ENTREGADO
+  CANCELADO
+}
+
+model Pedido {
+  id         String       @id @default(uuid())
+  cantidad   Int          @default(1)
+  notas      String?
+  estado     EstadoPedido @default(PENDIENTE)
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  // Llave foránea hacia User
+  userId     String
+  user       User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Llave foránea hacia Producto
+  productoId String
+  producto   Producto     @relation(fields: [productoId], references: [id], onDelete: Cascade)
+
+  @@map("pedidos")
+}
