@@ -133,9 +133,6 @@ La IA se usó como apoyo para la organización del proyecto, la lógica del auth
 
 ## Evidencia de Network
 
-La rúbrica exige una captura de la pestaña `Network` mostrando una petición protegida con el header `Authorization`.
-
-Se recomienda guardar la captura en una carpeta `docs/` y referenciarla así:
 
 <img width="1852" height="898" alt="image" src="https://github.com/user-attachments/assets/e7644139-d20f-4a92-9690-28600bca53ff" />
 
