@@ -154,70 +154,70 @@ const productosSeed = [
     nombre: "Bandera Gigante 'Rey de copas'",
     categoria: "coleccionables",
     precio: 49900,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNn7VoxqjGZRDeWTzBL2g2by4PuJxVoM_x7p8K9LygoTK9yZRSnhUycNFa&s=10",
+    imagen: "https://images.unsplash.com/photo-1521417531038-928ec2677a38?w=800&auto=format&fit=crop&q=80",
     descripcion: "Bandera resistente para alentar con orgullo."
   },
   {
     nombre: "Bal?n Coleccionable vintage",
     categoria: "coleccionables",
     precio: 85000,
-    imagen: "https://lacanchatiendadeportiva.com.co/cdn/shop/files/rn-image_picker_lib_temp_e1c08d2a-b180-43d8-9f4b-e6ddc02c40a0.jpg?v=1764959849",
+    imagen: "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=800&auto=format&fit=crop&q=80",
     descripcion: "Bal?n decorativo conmemorativo con detalles dorados."
   },
   {
     nombre: "Bal?n final liga 2024",
     categoria: "coleccionables",
     precio: 99000,
-    imagen: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop&q=80",
     descripcion: "Bal?n de edici?n conmemorativa del t?tulo liguero 2024."
   },
   {
     nombre: "Cuadro decorativo campeon libertadores",
     categoria: "coleccionables",
     precio: 115000,
-    imagen: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
     descripcion: "Cuadro decorativo conmemorativo del t?tulo de la Libertadores."
   },
   {
     nombre: "balon atletico nacional",
     categoria: "coleccionables",
     precio: 92000,
-    imagen: "https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?w=800&auto=format&fit=crop&q=80",
     descripcion: "Bal?n representativo del club con dise?o cl?sico y detalles del escudo."
   },
   {
     nombre: "Placa Decorativa Met?lica",
     categoria: "coleccionables",
     precio: 59900,
-    imagen: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
     descripcion: "Placa de aluminio estilo vintage con bordes envejecidos para decorar habitaciones o salas de entretenimiento."
   },
   {
     nombre: "Placa decorativa 'soy del verde, soy feliz'",
     categoria: "coleccionables",
     precio: 54000,
-    imagen: "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&auto=format&fit=crop&q=80",
     descripcion: "Placa decorativa inspirada en la energ?a y alegr?a de la hinchada verdolaga."
   },
   {
     nombre: "?lbum hist?rico tricampe?n",
     categoria: "coleccionables",
     precio: 87000,
-    imagen: "https://images.unsplash.com/photo-1563089145-599997674d42?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop&q=80",
     descripcion: "?lbum hist?rico conmemorativo del tricampeonato del club."
   },
   {
     nombre: "Escudo Decorativo 3D Multicapa",
     categoria: "coleccionables",
     precio: 129900,
-    imagen: "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&auto=format&fit=crop&q=80",
     descripcion: "Pieza artesanal de pared en madera calada con acabado en relieve y colores verde y blanco brillantes."
   },
   {
     nombre: "R?plica de Trofeo de Colecci?n libertadores 2016",
     categoria: "coleccionables",
     precio: 189900,
-    imagen: "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=500&auto=format&fit=crop&q=60",
+    imagen: "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=800&auto=format&fit=crop&q=80",
     descripcion: "Figura decorativa en resina con ba?o plateado en homenaje a la conquista internacional del 2016."
   }
 ];
